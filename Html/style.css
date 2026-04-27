@@ -27,7 +27,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: 'Outfit', sans-serif;
 }
 
-/* Navbar */
 .navbar.custom-nav {
     background: rgba(255, 255, 255, 0.8) !important;
     backdrop-filter: blur(12px);
@@ -43,7 +42,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     gap: 10px;
 }
 
-/* Typography styles */
 .section-title {
     font-weight: 700;
     color: var(--dark);
@@ -66,7 +64,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     background: var(--success);
 }
 
-/* Cards */
 .custom-card {
     background: #ffffff;
     border: none;
@@ -96,7 +93,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     padding: 1.5rem;
 }
 
-/* Form Controls */
 .form-label {
     font-weight: 500;
     color: var(--gray-500);
@@ -121,7 +117,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     color: #94a3b8;
 }
 
-/* Buttons */
 .btn-custom {
     padding: 0.6rem 1.25rem;
     border-radius: 10px;
@@ -173,7 +168,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     border-color: #cbd5e1;
 }
 
-/* Action Buttons in Table */
 .btn-action {
     width: 34px;
     height: 34px;
@@ -195,7 +189,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 .btn-action.edit:hover { background: #fef3c7; color: var(--warning); }
 .btn-action.delete:hover { background: #fee2e2; color: var(--danger); }
 
-/* Table Improvements */
 .table-custom {
     border-collapse: separate;
     border-spacing: 0 0.5rem;
@@ -236,7 +229,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     border-bottom-right-radius: 12px;
 }
 
-/* Badges */
 .badge-custom {
     padding: 0.5em 0.8em;
     border-radius: 6px;
@@ -248,7 +240,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 .badge-premium { background: #fef3c7; color: #b45309; }
 .badge-detailing { background: #f3e8ff; color: #7e22ce; }
 
-/* Custom Search Input */
 .search-input-wrapper {
     position: relative;
 }
@@ -271,7 +262,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     width: 250px;
 }
 
-/* Animations */
 @keyframes slideInRight {
     from { transform: translateX(100%); opacity: 0; }
     to { transform: translateX(0); opacity: 1; }
